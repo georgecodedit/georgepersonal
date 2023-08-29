@@ -20,7 +20,7 @@ const projectOptions = {
         "/research/research1.JPG",
         "/research/research2.JPG",
         "/research/research3.JPG",
-        "/research/research4.jpg",
+        "/research/research4.JPG",
       ],
     },
   ],
@@ -79,7 +79,7 @@ const projectOptions = {
     {
       title: "Self Locking Transmission - Junior Design II",
       dateRange: "Feburary - May 2023",
-      summary: "i need one",
+      summary: `In my second Junior Design class my team and I were assigned to create a transmission that would alter directions.  The transmission had to go into reverse, neutral, or forward in any order.  The transmission also had to carry 4 kilograms of weight 8 feet within 10 seconds.  The main challenge with this project was for a self locking neutral.  The system was driven by the aluminum bar in the last image and had to be on the entire time.  To meet this need I designed a dog clutch which was split into two parts.  This meant that it could go from forward to neutral as a typical dog clutch could but then one part could be slid over so that it was not engaged with the main shaft, allowing the main shaft to spin while holding the gears in place.`,
       images: [
         "/school/ME371/transmission1.JPG",
         "/school/ME371/transmission2.JPG",

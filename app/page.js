@@ -1,3 +1,5 @@
+"use client";
+import ParagraphOverflow from "@/components/ParagraphOverflow";
 import Image from "next/image";
 import Link from "next/link";
 
@@ -51,11 +53,31 @@ export default function Home() {
       link: "/web-development",
     },
   ];
+  const introText=`  My name is George Penn, and I am happy to share with you insight about
+  me and some of my most recent projects. I am a Chicago native and a
+  graduating senior at the University of Illinois in Urbana Champaign
+  studying mechanical engineering. Engineering and design have always
+  been my passion. My fascination with engineering grew in highschool
+  when I started biking and learning how to put together bikes, and
+  shortly later in product design when I was introduced to TinkerCAD.
+  Now in college, I've developed concrete skills in design, learning to
+  use CAD programs efficiently, tolerance parts, and design projects
+  based on manufacturing methods. I have implemented this knowledge
+  working on self-led projects, group school projects, collaborative
+  projects with friends, and research projects. Recently, I have also
+  been able to explore other areas of engineering besides mechanical,
+  working on web development. This started near the start of 2023, when
+  I needed a quick way to create citations for my academic papers. There
+  are many websites which attempt to do this but not in a way which is
+  suitable. I saw a need and I started developing a next.js website.
+  Since then I have been able to learn javascript and the node js
+  environment, which helped me create the citation website, and this
+  website.`
 
   return (
-    <div className="min-h-screen bg-gray-100 py-10">
-      <div className="max-w-7xl mx-auto bg-gradient-to-b from-white  to-blue-50 rounded-xl p-10 mb-10 shadow-lg border border-gray-200">
-        <h1 className="text-4xl font-extrabold text-center text-gray-900">
+    <div className="min-h-screen  mr-4 ml-4 py-10">
+      <div className="max-w-7xl mx-auto bg-blue-50 rounded-xl p-10 mb-10 shadow-lg border border-gray-200">
+        <h1 className="sm:text-4xl font-extrabold text-center text-gray-900 text-2xl">
           Welcome!
         </h1>
         <p className="text-center text-xl mt-4 font-light text-gray-700">
@@ -65,22 +87,10 @@ export default function Home() {
 
       <div className="max-w-7xl mx-auto bg-white rounded-xl p-8 shadow-md mb-10">
         <h2 className="text-3xl font-extrabold mb-4">About Me</h2>
-        <p className="text-lg leading-relaxed text-gray-700">
-          My name is George Penn. I am a graduating mechanical engineering
-          student always pushing my designs to a higher level that maximizes
-          function and uniqueness to produce the best product possible. My
-          fascination with tinkering and bicycle mechanics inspired me to bring
-          my first viable project to life using Tinker CAD while still in high
-          school. In college, I've developed concrete skills in design, learned
-          how to use CAD programs efficiently, tolerance parts appropriately,
-          and design projects based on manufacturing methods. I have implemented
-          this knowledge working on self-led projects, group school projects,
-          and collaborative projects with friends.  I have also refined previous
-          designs not made with GD&T and manufacturing methods in mind. I
-          embrace the math and physics that support working designs and
-          appreciate the thought process and complexity of work required to
-          produce them.
-        </p>
+
+        <ParagraphOverflow
+          text={introText}
+        />
       </div>
 
       <div className="max-w-7xl mx-auto bg-white rounded-xl p-8 shadow-md">
