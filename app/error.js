@@ -1,12 +1,8 @@
 "use client"; // Error components must be Client Components
 import { LuHome } from "react-icons/lu";
-import { useEffect } from "react";
+
 import Link from "next/link";
-export default function Error({ error, reset }) {
-  useEffect(() => {
-    // Log the error to an error reporting service
-    console.error(error);
-  }, [error]);
+export default function Error({ }) {
 
   return (
     <div className="min-h-screen flex flex-col justify-center items-center text-center">
