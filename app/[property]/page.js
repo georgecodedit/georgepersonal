@@ -75,7 +75,7 @@ const projectOptions = {
       ],
     },
   ],
-  "design-school":[
+  "design-school": [
     {
       title: "Self Locking Transmission - Junior Design II",
       dateRange: "Feburary - May 2023",
@@ -148,22 +148,28 @@ const projectOptions = {
   ],
   "web-development": [
     {
-      title: "Large scale fabrication of HX biphilic surfaces",
-      dateRange: "October 2022 - June 2023",
-      summary: `At the Energy Transport Research Lab at the University of Illinois I am developing a large scale fabrication method for biphilic surfaces. I am working with graduate student Majid Linjawi, under the PI Professor Nenad Milijkovic.
-        
-              Biphilic surfaces are both hydrophobic and hydrophilic, and can be used as the stock material for heat exchangers.  Currently heat exchangers are made of standard aluminum alloys.  When used in heat pump applications, stock aluminum forms ice rapidly, and the cycle needs to be either run in reverse or heated externally to completely deice the exchanger, which decreases efficiency.  
-              
-              Because biphilic surfaces are hydrophobic and hydrophilic the surface allows ices to move as a slush before it is entirely liquid.  This requires less energy input for deicing, ultimately increasing the energy efficiency of the cycle. 
-              
-              Currently, biphilic surfaces are only made on a small scale in labs.  In this project, I am designing a scalable manufacturing assembly for biphilic surfaces.  The purpose of the assembly is to make a roll of aluminum stock into a roll of biphilic aluminum. The fabrication assembly will use a conveyer system for ultrasonic cleaning, boemitization, and hydrophobic coating, which will create a hydrophilic and hydrophobic material that can be tested for efficiency. 
+      title: "GCite",
+      dateRange: "Feburary 2023 - Present",
+      summary: `
+      GCite was started because  creating sources was taking too long on traditional citation websites. 
+      Even though these citation websites auto populated and auto formatted the citation, the process still seemed very manual and was laborious when citing a lot of sources.  
+      GCite was created to streamline the process and citing 20 sources for my research paper only took 3 minutes versus the hour or more it used to take.  
+      I developed GCite using NEXTJS with Chakra UI GCite,and its demo was deployed using Vercel in April.At the time it supported books, journals, and websites, and I shared it on Reddit and with friends. 
+      I got a lot of replies and interest, so I determined it was worthwhile to optimize and add on to the website.  I closed the website in April and started redevelopment in June using the new NEXTJS App directory.  
+      Gcite will be launched mid September and offer populated information for 15 source types, web categorization, advanced filtering for accurate information, and it will work better and faster than any predecessor. 
+
               `,
-      images: [
-        "/research/research1.JPG",
-        "/research/research2.JPG",
-        "/research/research3.JPG",
-        "/research/research4.jpg",
-      ],
+      images: ["/development/gciteblue.png"],
+    },
+    {
+      title: "Personal Website",
+      dateRange: "August 2023",
+      summary: `
+  
+Before I started web development I used a website creator to make my portfolio website with text and images boxes.  After learning web development I have been able to create a new site, which is more customizable, faster, and actually easier to make.  This website you are on right now was made using NEXTJS with its new app directory, serverless deployment on Vercel, and TailwindCSS for the UI interface.  This website was designed from scratch and it’s repository is available here.
+
+              `,
+      images: ["/development/gciteblue.png"],
     },
   ],
 };

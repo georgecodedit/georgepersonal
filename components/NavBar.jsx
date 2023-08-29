@@ -18,14 +18,14 @@ const linkHoverClass =
 const combinedLinkClass = `${linkBaseClass} ${linkHoverClass}`;
 
 const Dropdown = ({ title, items }) => (
-  <li className="relative group">
+  <div className="relative group">
     <span className={`${combinedLinkClass} p-2`}>{title}</span>
     <ul className="absolute left-0 mt-2 space-y-2 bg-white text-black p-2 rounded shadow-lg opacity-0 group-hover:opacity-100 transition-opacity duration-400 text-black">
       {items.map((item) => (
         <NavItem key={item.name} {...item} />
       ))}
     </ul>
-  </li>
+  </div>
 );
 
 const NavItem = ({ name, path }) => (

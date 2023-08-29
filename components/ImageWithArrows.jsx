@@ -31,35 +31,33 @@ function ImageCarousel({ images }) {
   if (images.length === 1) {
     return (
       <div
-      className="flex-column items-center w-full h-full"
-      style={{
-        maxWidth: "500px",
-        maxHeight: "600px",
-      }}
-    >
-      <div
-        style={{ position: "relative", paddingBottom: "100%" }}
-        className="bg-white"
+        className="flex-column items-center w-full h-full"
+        style={{
+          maxWidth: "500px",
+          maxHeight: "600px",
+        }}
       >
         <div
-          style={{
-            position: "absolute",
-            width: "100%",
-            height: "100%",
-            display: "flex",
-            alignItems: "center",
-          }}
+          style={{ position: "relative", paddingBottom: "100%" }}
+          className="bg-white"
         >
-        <Image
-          src={images[0]}
-          alt="Single Image"
-          layout="responsive"
-          objectFit="contain"
-          width={1000}
-          height={1000}
-        />
-           </div>
-           </div>
+          <div
+            style={{
+              position: "absolute",
+              width: "100%",
+              height: "100%",
+              display: "flex",
+              alignItems: "center",
+            }}
+          >
+            <Image
+              src={images[0]}
+              alt="Single Image"
+              width={1000}
+              height={1000}
+            />
+          </div>
+        </div>
       </div>
     );
   }
@@ -89,8 +87,6 @@ function ImageCarousel({ images }) {
               <Image
                 src={images[currentIndex]}
                 alt={`Image ${currentIndex + 1}`}
-                layout="responsive"
-                objectFit="contain"
                 width={1000}
                 height={1000}
               />
@@ -101,8 +97,8 @@ function ImageCarousel({ images }) {
                     <Image
                       src={image}
                       alt={`Image ${index + 1}`}
-                      layout="fill"
-                      objectFit="cover"
+                      width={1000}
+                      height={1000}
                     />
                   </div>
                 ))}
@@ -111,8 +107,6 @@ function ImageCarousel({ images }) {
               <Image
                 src={images[currentIndex - 1]}
                 alt={`Image ${currentIndex}`}
-                layout="responsive"
-                objectFit="contain"
                 width={1000}
                 height={1000}
               />
@@ -162,14 +156,15 @@ function ImageCarousel({ images }) {
               }`}
               style={{
                 maxWidth: "60px",
-                maxHeight: "60px",
+      
+                height: "100%",
               }}
             >
               <Image
                 src={img}
                 alt={`Thumbnail ${index + 1}`}
-                width={60}
-                height={60}
+                width={1000}
+                height={1000}
               />
             </div>
           ))}
