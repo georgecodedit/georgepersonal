@@ -177,8 +177,21 @@ const page = ({ params }) => {
   const property = params.property;
   const projects = projectOptions[property];
 
+  let title;
+  if (property === 'web-development') {  // Note: I think you meant 'web-development'
+    title = 'Web Development';
+  } else if (property === 'design-school') {
+    title = 'School Projects';
+  } else if (property === 'design-personal') {
+    title = 'Personal Projects';
+  } else if (property === 'design-research') {
+    title = 'research Projects';
+  }
+
+
   return (
-    <Layout title="Research Projects">
+    
+    <Layout title={title}>
       {projects.map((project, index) => (
         <Project key={index} {...project} />
       ))}
