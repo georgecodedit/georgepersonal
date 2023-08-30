@@ -37,7 +37,7 @@ export default function ParagraphOverflow({ text }) {
   return (
     <div>
       <div style={textContainerStyle} ref={textRef}>
-        <p className="text-sm xl:text-md 2xl:text-lg">{text}</p>
+        <p className="text-sm xl:text-md 2xl:text-lg text-black">{text}</p>
       </div>
       {isOverflowing && (
         <div className="lg:hidden">
@@ -46,7 +46,7 @@ export default function ParagraphOverflow({ text }) {
             onClick={handleExpand}
           >
             {isExpanded ? (
-              <BsArrowsCollapse className="mr-1" />
+              <BsArrowsCollapse className="mr-1 " />
             ) : (
               <BsArrowsExpand className="mr-1" />
             )}

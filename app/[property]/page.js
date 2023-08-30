@@ -46,8 +46,8 @@ const projectOptions = {
               The bike stem is virtually the same design on all bikes no matter the brand. Striving for aesthetics, I designed a bike stem with a unique shape and pattern. I created the first two prototypes before learning about manufacturing; however, I am currently working on a revision of this project that lowers manufacturing costs based on the drawing in the third image.`,
       images: [
         "/personal/bikeStem/bike1.PNG",
-        "/personal/bikeStem/bike2.PNG",
-        "/personal/bikeStem/bike3.PNG",
+        "/personal/bikeStem/bike2.png",
+        "/personal/bikeStem/bike3.png",
       ],
     },
 
@@ -59,8 +59,8 @@ const projectOptions = {
                Using 33 feet of 3/4 inch pine, and wooden rods, I went on to build the 5 foot tall Bookshelf.`,
       images: [
         "/personal/bookshelf/shelf1.PNG",
-        "/personal/bookshelf/shelf2.PNG",
-        "/personal/bookshelf/shelf3.PNG",
+        "/personal/bookshelf/shelf2.png",
+        "/personal/bookshelf/shelf3.png",
       ],
     },
     {
@@ -69,7 +69,7 @@ const projectOptions = {
       summary: `The idea for Bladed Lamp happened while bending a blade of grass, and was driven by my interest in mid-century modern design and being a devout fan of lamps created by Michael Lax and Richard Sapper.
                Bladed Lamp sticks straight up and folds on angles to hang over and light any surface.`,
       images: [
-        "/personal/bladedLamp/lamp1.PNG",
+        "/personal/bladedLamp/lamp1.png",
         "/personal/bladedLamp/lamp2.PNG",
         "/personal/bladedLamp/lamp3.PNG",
       ],
