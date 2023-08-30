@@ -30,7 +30,23 @@ export default function ParagraphOverflow({ text }) {
     }
   };
 
-  const textContainerStyle = !isExpanded
+  const [windowWidth, setWindowWidth] = useState(window.innerWidth);
+
+  useEffect(() => {
+    const handleResize = () => {
+      setWindowWidth(window.innerWidth);
+    };
+
+    window.addEventListener('resize', handleResize);
+
+    return () => {
+      window.removeEventListener('resize', handleResize);
+    };
+  }, []);
+
+  const isLargeView = windowWidth > 1024;
+
+  const textContainerStyle = !isExpanded && !isLargeView
     ? { maxHeight: "200px", overflow: "hidden" }
     : {};
 
