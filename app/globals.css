@@ -16,6 +16,12 @@
   }
 }
 
+:root {
+  --background-start-rgb: 230, 230, 230; /* light gray */
+  --background-end-rgb: 245, 245, 245; /* lighter gray */
+  --foreground-rgb: 0, 0, 0; /* text color, black for example */
+}
+
 body {
   color: rgb(var(--foreground-rgb));
   background: linear-gradient(
