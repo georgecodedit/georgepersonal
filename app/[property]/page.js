@@ -151,12 +151,9 @@ const projectOptions = {
       title: "GCite",
       dateRange: "Feburary 2023 - Present",
       summary: `
-      GCite was started because  creating sources was taking too long on traditional citation websites. 
-      Even though these citation websites auto populated and auto formatted the citation, the process still seemed very manual and was laborious when citing a lot of sources.  
-      GCite was created to streamline the process and citing 20 sources for my research paper only took 3 minutes versus the hour or more it used to take.  
-      I developed GCite using NEXTJS with Chakra UI GCite,and its demo was deployed using Vercel in April.At the time it supported books, journals, and websites, and I shared it on Reddit and with friends. 
-      I got a lot of replies and interest, so I determined it was worthwhile to optimize and add on to the website.  I closed the website in April and started redevelopment in June using the new NEXTJS App directory.  
-      Gcite will be launched mid September and offer populated information for 15 source types, web categorization, advanced filtering for accurate information, and it will work better and faster than any predecessor. 
+      I created GCite because generating sources on existing citation websites takes too long. Even though these websites can auto populate and auto format the citation, the process to check for errors and input missing information is still laborious.  GCite is designed to streamline the process. Citing 20 sources takes three minutes on GCite, but can take an hour plus using existing citation sites.
+      GCite and its demo deployed in April. It supported books, journals, and websites. I shared it on Reddit and with friends. The feedback and interest I received led me to optimize the website. Redevelopment began in June using the new Next.js app directory. Gcite’s redevelopment will be launched mid-September and offer populated information for 15 source types, web categorization, advanced filtering for accurate information, and will work better and faster than any predecessor. 
+      
 
               `,
       images: ["/development/gciteblue.png"],
@@ -166,10 +163,10 @@ const projectOptions = {
       dateRange: "August 2023",
       summary: `
   
-Before I started web development I used a website creator to make my portfolio website with text and images boxes.  After learning web development I have been able to create a new site, which is more customizable, faster, and actually easier to make.  This website you are on right now was made using NEXTJS with its new app directory, serverless deployment on Vercel, and TailwindCSS for the UI interface.  This website was designed from scratch and it’s repository is available here.
+      Previously, I used a website creator to make my first portfolio website with text and image boxes.  I designed my current portfolio website using Next.js with its new app directory, serverless deployment on Vercel, and Tailwind CSS for the UI interface.  This website was designed from scratch and its repository is available here.
 
               `,
-      images: ["/development/gciteblue.png"],
+      images: ["/development/personal.JPG"],
     },
   ],
 };

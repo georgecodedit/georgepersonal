@@ -53,26 +53,9 @@ export default function Home() {
       link: "/web-development",
     },
   ];
-  const introText=`  My name is George Penn, and I am happy to share with you insight about
-  me and some of my most recent projects. I am a Chicago native and a
-  graduating senior at the University of Illinois in Urbana Champaign
-  studying mechanical engineering. Engineering and design have always
-  been my passion. My fascination with engineering grew in highschool
-  when I started biking and learning how to put together bikes, and
-  shortly later in product design when I was introduced to TinkerCAD.
-  Now in college, I've developed concrete skills in design, learning to
-  use CAD programs efficiently, tolerance parts, and design projects
-  based on manufacturing methods. I have implemented this knowledge
-  working on self-led projects, group school projects, collaborative
-  projects with friends, and research projects. Recently, I have also
-  been able to explore other areas of engineering besides mechanical,
-  working on web development. This started near the start of 2023, when
-  I needed a quick way to create citations for my academic papers. There
-  are many websites which attempt to do this but not in a way which is
-  suitable. I saw a need and I started developing a next.js website.
-  Since then I have been able to learn javascript and the node js
-  environment, which helped me create the citation website, and this
-  website.`
+  const introText=`  My name is George Penn and I’m a Chicago native and graduating senior at the University of Illinois Urbana-Champaign studying mechanical engineering. Engineering and design have always been my passion—this spark ignited in my early teens when I learned how to build bikes. My interests in product design developed shortly after, when I was introduced to TinkerCAD.  In college, I have developed concrete skills in design, learned to use more technical CAD programs efficiently, tolerance parts, and design projects based on manufacturing methods. I have implemented this knowledge while working on self-led projects, group school projects, collaborative projects with friends, and research projects.
+  These engineering projects enhanced my drive to create solutions—so when I needed a quick way to generate citations while writing academic papers, I expanded my skillset to software engineering. Since I could not find a suitable website for this task, I made my own solution through developing a Next.js website, learning JavaScript and the Node.js environment.
+  `
 
   return (
     <div className="min-h-screen  mr-4 ml-4 py-10">
