@@ -30,39 +30,21 @@ export default function ParagraphOverflow({ text }) {
     }
   };
 
-  const [windowWidth, setWindowWidth] = useState(window.innerWidth);
 
-  useEffect(() => {
-    const handleResize = () => {
-      setWindowWidth(window.innerWidth);
-    };
-
-    window.addEventListener('resize', handleResize);
-
-    return () => {
-      window.removeEventListener('resize', handleResize);
-    };
-  }, []);
-
-  const isLargeView = windowWidth > 1024;
-
-  const textContainerStyle = !isExpanded && !isLargeView
-    ? { maxHeight: "200px", overflow: "hidden" }
-    : {};
 
   return (
     <div>
-      <div style={textContainerStyle} ref={textRef}>
-        <p className="text-sm xl:text-md 2xl:text-lg text-black">{text}</p>
+      <div className={isExpanded? " lg:max-h-full lg:overflow-visible   ": " lg:max-h-full lg:overflow-visible max-h-[200px] overflow-hidden "}  ref={textRef}>
+        <p className="text-sm xl:text-md 2xl:text-lg">{text}</p>
       </div>
       {isOverflowing && (
-        <div >
+        <div className="lg:hidden">
           <button
-            className="text-blue-500 mt-2 flex items-center bg-blue-50 hover:bg-blue-200 py-1 px-2 rounded-md transition duration-300"
+            className="text-blue-500 mt-2 flex items-center bg-blue-50 hover:bg-blue-200 py-1 px-2 rounded-md transition duration-300 "
             onClick={handleExpand}
           >
             {isExpanded ? (
-              <BsArrowsCollapse className="mr-1 " />
+              <BsArrowsCollapse className="mr-1" />
             ) : (
               <BsArrowsExpand className="mr-1" />
             )}
