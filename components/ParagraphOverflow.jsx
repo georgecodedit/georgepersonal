@@ -56,7 +56,7 @@ export default function ParagraphOverflow({ text }) {
         <p className="text-sm xl:text-md 2xl:text-lg text-black">{text}</p>
       </div>
       {isOverflowing && (
-        <div className="lg:hidden">
+        <div >
           <button
             className="text-blue-500 mt-2 flex items-center bg-blue-50 hover:bg-blue-200 py-1 px-2 rounded-md transition duration-300"
             onClick={handleExpand}
