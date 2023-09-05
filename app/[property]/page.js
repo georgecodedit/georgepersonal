@@ -143,7 +143,7 @@ const projectOptions = {
       dateRange: "August 2023",
       summary: `
   
-      Previously, I used a website creator to make my first portfolio website with text and image boxes. I designed my current portfolio website using Next.js with its new app directory, serverless deployment on Vercel, and Tailwind CSS for the UI interface. This website was designed from scratch and its repository is available here.
+      Previously, I used a website creator to make my first portfolio website with text and image boxes. I designed my current portfolio website using Next.js with its new app directory, serverless deployment on Vercel, and Tailwind CSS for the UI interface. This website was designed from scratch.
               `,
       images: ["/development/personal.JPG"],
     },
