@@ -30,13 +30,50 @@ export default function ParagraphOverflow({ text }) {
     }
   };
 
+  // Utility function to parse text into paragraphs and links
+  const parseText = (text) => {
+    // Splitting the text into paragraphs based on '\n'
+    const paragraphs = text.split('\n');
+  
+    return paragraphs.map((paragraph, i) => {
+      const words = paragraph.split(' ');
+  
+      return (
+        <p key={i} className="text-sm xl:text-md 2xl:text-lg mb-4">
+          {words.map((word, j) => {
+            // If the word is a URL, make it a clickable link that opens in a new tab
+            if (word.startsWith('http://') || word.startsWith('https://')) {
+              return (
+                <span key={j}>
+                  <a 
+                    href={word} 
+                    className="text-blue-500 hover:underline" 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                  >
+                    {word}
+                  </a>{' '}
+                </span>
+              );
+            } else {
+              return `${word} `;
+            }
+          })}
+        </p>
+      );
+    });
+  };
+  
+
+
 
 
   return (
     <div>
-      <div className={isExpanded? " lg:max-h-full lg:overflow-visible   ": " lg:max-h-full lg:overflow-visible max-h-[200px] overflow-hidden "}  ref={textRef}>
-        <p className="text-sm xl:text-md 2xl:text-lg">{text}</p>
+        <div className={isExpanded ? ' lg:max-h-full lg:overflow-visible ' : ' lg:max-h-full lg:overflow-visible max-h-[200px] overflow-hidden '} ref={textRef}>
+        {parseText(text)}
       </div>
+
       {isOverflowing && (
         <div className="lg:hidden">
           <button

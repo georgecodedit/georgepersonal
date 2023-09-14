@@ -53,8 +53,10 @@ export default function Home() {
       link: "/web-development",
     },
   ];
-  const introText=`  My name is George Penn and I am a Chicago native and graduating senior studying mechanical engineering at the University of Illinois Urbana-Champaign. Engineering and design have always been my passion—this spark ignited in my early teens when I learned how to build bikes. My interest in product design developed shortly after when I was introduced to TinkerCAD. In college, I have developed concrete skills in design, learned to use more technical CAD programs efficiently, tolerance parts, and design projects based on manufacturing methods. I have implemented this knowledge while working on self-led projects, group school projects, collaborative and research projects. These engineering projects enhanced my drive to create solutions like when I needed a quick way to generate citations while writing academic papers, which led me to expand my skillset to software engineering. Since I could not find a suitable website for this task, I made my own solution by developing a Next.js website, learning JavaScript and the Node.js environment.
+  const introText=`
+  My name is George Penn and I am a Chicago native and graduating senior studying mechanical engineering at the University of Illinois Urbana-Champaign. Engineering and design have always been my passion—this spark ignited in my early teens when I learned how to build bikes. My interest in product design developed shortly after when I was introduced to TinkerCAD. In college, I have developed concrete skills in design, learned to use more technical CAD programs efficiently, tolerance parts, and design projects based on manufacturing methods. I have implemented this knowledge while working on self-led projects, group school projects, and collaborative and research projects. These engineering projects enhanced my drive to create solutions like when I needed a quick way to generate citations while writing academic papers, which led me to expand my skillset to software engineering. Since I could not find a suitable website for this task, I made my own solution by developing a Next.js website, learning JavaScript and the Node.js environment.
   `
+  
 
   return (
     <div className="min-h-screen  mr-4 ml-4 py-10">
