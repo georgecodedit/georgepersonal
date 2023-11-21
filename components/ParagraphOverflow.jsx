@@ -36,10 +36,13 @@ export default function ParagraphOverflow({ text }) {
     const paragraphs = text.split('\n');
   
     return paragraphs.map((paragraph, i) => {
+      // Check if the paragraph starts with a bullet point
+      const isBulletPointLine = paragraph.trim().startsWith('•');
+  
       const words = paragraph.split(' ');
   
       return (
-        <p key={i} className="text-sm xl:text-md 2xl:text-lg mb-4">
+        <p key={i} className={`text-sm xl:text-md 2xl:text-lg ${isBulletPointLine ? '' : 'mb-4'}`}>
           {words.map((word, j) => {
             // If the word is a URL, make it a clickable link that opens in a new tab
             if (word.startsWith('http://') || word.startsWith('https://')) {

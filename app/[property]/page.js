@@ -71,6 +71,28 @@ const projectOptions = {
   ],
   "design-school": [
     {
+      title: "CAPSLOCK - Senior Design Capstone",
+      dateRange: "September 2023 - Present",
+      summary: `Conceptualized by Mahima Goel, a medical student at the Carle Illinois College of Medicine, CAPSLock is a capstone project that introduces a novel scalp cooling device to prevent hair loss in breast cancer patients undergoing chemotherapy. Addressing the limitations of current hospital-bound treatments, CAPSLock aims to offer a portable, efficient, and cost-effective alternative.
+      Notable features of the prototype include: 
+      •	A custom-designed housing and coolant reservoir, ensuring compactness and efficiency.
+      •	A pump that circulates refrigerant, integral to the cooling process.
+      •	Quick-seal beverage connectors at both inlet and outlet for easy detachment of the cap, providing flexibility for patients.
+      •	A brazed plate heat exchanger connected to a refrigeration cycle for optimal cooling.
+      •	A user-friendly touchscreen interface for control and monitoring, displaying three temperature readings within the system, measured by thermocouples, alongside water flow data.
+      •	Powered by Arduino technology, with the capability of battery operation, making it a unique battery-powered water chiller in the market.
+      
+      While the prototype features a commercially available scalp cooling cap fitted on a mannequin head, all other components were developed in-house. This project represents a significant step forward in making scalp cooling treatment more accessible and convenient for those undergoing chemotherapy.
+      `,
+      images: [
+        "/school/ME470/capslock1.JPG",
+        "/school/ME470/capslock2.JPG",
+        "/school/ME470/capslock3.JPG",
+        "/school/ME470/capslock4.JPG",
+        "/school/ME470/capslock5.JPG",
+      ],
+    },
+    {
       title: "Self Locking Transmission - Junior Design II",
       dateRange: "Feburary - May 2023",
       summary: `In my second Junior Design class, my team was tasked with creating a transmission that would alter directions. The transmission had to go into reverse, neutral, or forward in any order, and had to carry 4 kilograms of weight 8 feet within 10 seconds. The main challenge with this project was for a self-locking neutral. The system was driven by the aluminum bar in the last image and had to be on the entire time. To meet this need I designed a dog clutch that was split into two parts. This meant it could go from forward to neutral as a typical dog clutch could, but then one part could be slid over so that it was not engaged with the main shaft, allowing the main shaft to spin while holding the gears in place.`,
