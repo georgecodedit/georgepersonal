@@ -72,17 +72,18 @@ const projectOptions = {
   "design-school": [
     {
       title: "CAPSLOCK - Senior Design Capstone",
-      dateRange: "September 2023 - Present",
-      summary: `Conceptualized by Mahima Goel, a medical student at the Carle Illinois College of Medicine, CAPSLock is a capstone project that introduces a novel scalp cooling device to prevent hair loss in breast cancer patients undergoing chemotherapy. Addressing the limitations of current hospital-bound treatments, CAPSLock aims to offer a portable, efficient, and cost-effective alternative.
-      Notable features of the prototype include: 
-      •	A custom-designed housing and coolant reservoir, ensuring compactness and efficiency.
-      •	A pump that circulates refrigerant, integral to the cooling process.
-      •	Quick-seal beverage connectors at both inlet and outlet for easy detachment of the cap, providing flexibility for patients.
-      •	A brazed plate heat exchanger connected to a refrigeration cycle for optimal cooling.
-      •	A user-friendly touchscreen interface for control and monitoring, displaying three temperature readings within the system, measured by thermocouples, alongside water flow data.
-      •	Powered by Arduino technology, with the capability of battery operation, making it a unique battery-powered water chiller in the market.
+      dateRange: "September 2023 - Dec 2023",
+      summary: `Winning the Fall 2023 UIUC Mechanical Engineering Best Presentation and Display Awards, CAPSLock is an innovative capstone project featuring a portable scalp cooling device designed to prevent hair loss in chemotherapy patients. This device effectively addresses the limitations of traditional, hospital-bound treatments by being more efficient and cost-effective.
+
+      Key highlights of the prototype include a custom-designed housing, a brazed plate heat exchanger (HX), and a user-friendly touchscreen interface that displays temperature and water flow data. It is controlled by Arduino technology, distinguishing it as a unique battery-powered water chiller in its category. The prototype incorporates a commercially available scalp cooling cap, with all other components being developed in-house.
       
-      While the prototype features a commercially available scalp cooling cap fitted on a mannequin head, all other components were developed in-house. This project represents a significant step forward in making scalp cooling treatment more accessible and convenient for those undergoing chemotherapy.
+      This second version of the system has been significantly re-engineered in CAD, achieving a 50% reduction in size and weight. It is set to be handed down to a future capstone course for further development and enhancement.
+      
+      
+      
+      
+      
+      
       `,
       images: [
         "/school/ME470/capslock1.JPG",
@@ -90,6 +91,7 @@ const projectOptions = {
         "/school/ME470/capslock3.JPG",
         "/school/ME470/capslock4.JPG",
         "/school/ME470/capslock5.JPG",
+        "/school/ME470/capslock6.JPG",
       ],
     },
     {
@@ -169,7 +171,7 @@ const projectOptions = {
       dateRange: "August 2023",
       summary: `Previously, I used a website creator to make my first portfolio website with text and image boxes. I designed my current portfolio website using Next.js with its new app directory, serverless deployment on Vercel, and Tailwind CSS for the UI interface. This website was designed from scratch, and its repository is available here.
       https://github.com/georgecodedit/georgepersonal`,
-            images: ["/development/personal.JPG"],
+      images: ["/development/personal.JPG"],
     },
   ],
 };
