@@ -162,8 +162,8 @@ const projectOptions = {
     {
       title: "GCite",
       dateRange: "Feburary 2023 - Present",
-      summary: ` I created GCite because generating sources on existing citation websites takes too long. Even though these websites can auto populate and auto format the citation, the process to check for errors and input missing information is still laborious. I designed GCite to streamline the process. Citing 20 sources takes three minutes on GCite but can take an hour plus using existing citation sites. GCite and its demo deployed in April supporting books, journals, and websites. After sharing it on Reddit and with friends, feedback and public interest led me to optimize the website. Redevelopment began in June using the new Next.js app directory. Gcite’s redevelopment will launch mid-September and offer populated information for 15 source types, web categorization, advanced filtering for accurate information, and will work better and faster than any predecessor.
-`,
+      summary: ` I created GCite because generating sources on existing citation websites takes too long. Even though these websites can auto populate and auto format the citation, the process to check for errors and input missing information is still laborious. I designed GCite to streamline the process. Citing 20 sources takes three minutes on GCite but can take an hour plus using existing citation sites. GCite and its demo deployed in April supporting books, journals, and websites. After sharing it on Reddit and with friends, feedback and public interest led me to optimize the website. Redevelopment began in June using the new Next.js app directory. Gcite’s redevelopment will launch mid-September and offer populated information for 15 source types, web categorization, advanced filtering for accurate information, and will work better and faster than any predecessor.  Please visit Gcite below
+      https://gcite.net`,
       images: ["/development/gciteblue.png"],
     },
     {
