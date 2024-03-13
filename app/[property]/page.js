@@ -71,7 +71,7 @@ const projectOptions = {
   ],
   "design-school": [
     {
-      title: "CAPSLOCK - Senior Design Capstone",
+      title: "CAPSLOCK - James W. Bayne Award for Outstanding Senior Design Project",
       dateRange: "September 2023 - Dec 2023",
       summary: `Winning the Fall 2023 UIUC Mechanical Engineering Best Presentation and Display Awards, CAPSLock is an innovative capstone project featuring a portable scalp cooling device designed to prevent hair loss in chemotherapy patients. This device effectively addresses the limitations of traditional, hospital-bound treatments by being more efficient and cost-effective.
 
