@@ -46,7 +46,7 @@ const projectOptions = {
     },
 
     {
-      title: "Booksehlf",
+      title: "Bookshelf",
       dateRange: "August 2022",
       summary: `
 
