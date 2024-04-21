@@ -9,8 +9,8 @@ export default function CopyrightComponent() {
       <div className="hidden sm:block mx-3">|</div>
 
       <span>Contact: </span>
-      <a href="mailto:gmpenn2@illinois.edu" className="text-blue-500 ml-1">
-        gmpenn2@illinois.edu
+      <a href="mailto:gmpenn3@gmail.com" className="text-blue-500 ml-1">
+        gmpenn3@gmail.com
       </a>
     </div>
   );
