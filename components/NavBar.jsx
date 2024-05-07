@@ -4,7 +4,7 @@ import Link from "next/link";
 const navItems = [
   { name: "Home", path: "/" },
   { name: "Development", path: "/web-development" },
-  { name: "SE402", path: "/SE-402" },
+
 ];
 
 const subItems = [

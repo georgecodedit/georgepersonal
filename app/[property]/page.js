@@ -167,12 +167,20 @@ const projectOptions = {
       images: ["/development/gciteblue.png"],
     },
     {
+      title: "Y1 Engineering Company Website",
+      dateRange: "May 2024",
+      summary: `I recently had the opportunity to design and develop a professional website for Y1 Engineering. This project was implemented using TypeScript and CSS within a Next.js framework, ensuring a modern and efficient online presence. The website is hosted on Vercel and primarily features static content. However, it includes dynamic elements such as a contact form powered by Nodemailer. Currently, I am in the early stages of developing a backend database using PostgreSQL. This will enable Y1 Engineering staff to upload and manage project details and edits seamlessly. Additionally, I am working on integrating user profiles for clients, enhancing interaction and personalization on the platform.  Feel free to explore the website at 
+      https://y1engineering.com`,
+      images: ["/development/y1.JPG"]
+    },
+    {
       title: "Personal Website",
       dateRange: "August 2023",
       summary: `Previously, I used a website creator to make my first portfolio website with text and image boxes. I designed my current portfolio website using Next.js with its new app directory, serverless deployment on Vercel, and Tailwind CSS for the UI interface. This website was designed from scratch, and its repository is available here.
       https://github.com/georgecodedit/georgepersonal`,
       images: ["/development/personal.JPG"],
     },
+
   ],
 };
 const page = ({ params }) => {
